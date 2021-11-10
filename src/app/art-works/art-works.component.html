@@ -1,1 +1,7 @@
-<p>art-works works!</p>
+<div class="container-fluid my-4">
+    <div class="row">
+        <div class="col">
+            <app-art-work-group *ngFor="let department of departments" [displayName]="department.displayName" [departmentId]="department.departmentId"></app-art-work-group>
+        </div>
+    </div>
+</div>

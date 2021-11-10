@@ -1,1 +1,11 @@
-<p>art-work-group works!</p>
+<h4>{{displayName}}</h4>
+<div class="artilce-row">
+    <swiper
+        [config]="config"
+    >
+      <ng-template swiperSlide *ngFor="let articleObject of articleObjects" >
+        <app-art-work [articleObject]="articleObject" ></app-art-work> 
+      </ng-template>
+    </swiper>
+    
+</div>

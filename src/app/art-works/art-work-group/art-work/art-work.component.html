@@ -1,1 +1,20 @@
-<p>art-work works!</p>
+
+<figure class="figure" *ngIf="article; else articleFallback" [title]="article.title" (click)="open()">
+    <div *ngIf="article.primaryImageSmall; else fallback">
+        <img [src]="article.primaryImageSmall" alt="">
+    </div>
+    
+    <ng-template #fallback>
+        <img src="../../../../assets/images/no-image-available.png" alt="" >
+    </ng-template>
+    
+    <figcaption>{{article.title}}</figcaption>
+</figure>
+
+<ng-template #articleFallback>
+    <figure class="figure">
+        <img src="../../../../assets/images/no-image-available.png" alt="" >
+    </figure>
+</ng-template>
+
+

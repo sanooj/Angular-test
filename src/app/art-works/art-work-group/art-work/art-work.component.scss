@@ -1,0 +1,28 @@
+.figure {
+    width: 200px;
+    display: inline-block;
+    border: #d7d7d7 1px solid;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+    transition: box-shadow ease-in 300ms;
+    &:hover {
+        box-shadow: #d9cfcf 0px 9px 12px 2px;
+    }
+    img {
+        height: 139px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 12px 12px 0 0;
+        margin-bottom: 10px;
+    }
+    figcaption {
+        white-space: nowrap;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+    }
+}

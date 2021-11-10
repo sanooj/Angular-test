@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SwiperModule } from 'swiper/angular';
 import { LightboxModule } from 'ngx-lightbox';
-
+import { ToastrModule } from 'ngx-toastr';
 
 import { AppComponent } from './app.component';
 import { ArtWorksComponent } from './art-works/art-works.component';
@@ -25,7 +25,8 @@ import { HeaderComponent } from './header/header.component';
     BrowserModule,
     FontAwesomeModule,
     SwiperModule,
-    LightboxModule 
+    LightboxModule,
+    ToastrModule.forRoot() 
   ],
   providers: [],
   bootstrap: [AppComponent]

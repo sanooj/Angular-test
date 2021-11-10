@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { ArtWorksComponent } from './art-works/art-works.component';
 import { ArtWorkGroupComponent } from './art-works/art-work-group/art-work-group.component';
 import { ArtWorkComponent } from './art-works/art-work-group/art-work/art-work.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -17,7 +18,8 @@ import { ArtWorkComponent } from './art-works/art-work-group/art-work/art-work.c
     AppComponent,
     ArtWorksComponent,
     ArtWorkGroupComponent,
-    ArtWorkComponent
+    ArtWorkComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

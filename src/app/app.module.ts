@@ -6,12 +6,18 @@ import { LightboxModule } from 'ngx-lightbox';
 
 
 import { AppComponent } from './app.component';
+import { ArtWorksComponent } from './art-works/art-works.component';
+import { ArtWorkGroupComponent } from './art-works/art-work-group/art-work-group.component';
+import { ArtWorkComponent } from './art-works/art-work-group/art-work/art-work.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArtWorksComponent,
+    ArtWorkGroupComponent,
+    ArtWorkComponent
   ],
   imports: [
     BrowserModule,

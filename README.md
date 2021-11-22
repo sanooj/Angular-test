@@ -24,7 +24,3 @@ Run `ng test` (npm run test) to execute the unit tests via [Karma](https://karma
 ##### ngx-toastr version 14.1.4
 ##### swiper version 7.2.0
 
-### application details 
-##### Name: Sanooj Ariyathiparambil Hussain
-##### Email: sanooj007@gmail.com
-##### Position: Frontend Engineer
